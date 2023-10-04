@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page avec fond noir et image en plein écran</title>
+    <style>
+        /* Appliquer un fond noir à la page */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            overflow: hidden; /* Empêche le défilement */
+        }
+
+        /* Appliquer une image en plein écran */
+        img {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ajuster la taille de l'image pour remplir l'écran */
+        }
+    </style>
+</head>
+<body>
+    <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/share/1f595.jpg" alt="Image en plein écran">
+</body>
+</html>
